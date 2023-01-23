@@ -1,9 +1,11 @@
 # Tip calculator
-### Images
-![desktop-preview](https://user-images.githubusercontent.com/114133338/214028629-efd9c8de-37e7-4e7d-8716-2482e031ca49.jpg)
+
 ### Links
 
 - Live Site URL: https://abashidzeofficial.github.io/Tip-callculator/
+- 
+![desktop-preview](https://user-images.githubusercontent.com/114133338/214028629-efd9c8de-37e7-4e7d-8716-2482e031ca49.jpg)
+
 
 ### Built with
 - Semantic HTML5 markup 
