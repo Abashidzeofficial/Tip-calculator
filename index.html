@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <style> @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap'); </style>
+    <title>Tip callculator</title>
+</head>
+<body>
+    <div class="container">
+        <form>
+        <div class="main-container">
+            <div class="bilTipNum">
+        <div class="bilInput">
+            <a class="billName">Bill</a>
+            <label for="bill" id="billLabel"></label>
+            <input type="number" id="bill" class="billinputclass" placeholder="0"/>
+        </div>
+        <div class="seltip">
+            <a class="SelectTip">Select Tip %</a>
+        </div>
+        <div class="tip">
+            <button  type="button" class="tip5" id="tipFive">5%</button>
+            <button  type="button"class="tip5" id="tipTen">10%</button>
+            <button  type="button"class="tip5" id="tipFifteen">15%</button>
+            <button  type="button" class="tip5" id="tip25">25%</button>
+            <button  type="button"class="tip5" id="tip50">100%</button>
+            <input   type="text" placeholder="Custom" id="CustomText" class="CustomTextClass">    
+        </div>
+        <div class="peoplenumber">
+            <a class="numberPeopleText">Number of People</a>
+            <label for="" id="numberLabel" class="numberPeopleLabel"></label>
+            <input type="number" id="numberPeople" class="numberPeopleClass" placeholder="1"    value="1"/>
+        </div>
+    </div>
+        <div class="tipAmountBox">
+            <div class="tipAmountBoxInside">
+                <div class="tipAmountFirstBox">
+                    <article class="tipText">Tip Amount</article>
+                    <article class="personText">/ person</article>
+                    <div class="tipamountmoneytext" id="tipamountmoneytext">$0.00</div>
+                </div>
+                <div class="total">
+                    <article class="totalText">Total</article>
+                    <article class="totalPersonText">/ person</article>
+                    <div class="totalAmountText" id="totalAmount">$0.00</div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <div class="restbtn">
+            <div class="reset">
+                <button class="btn" type="reset" id="reset"  onclick="resetAll()" >Reset</button>
+            </div>
+        </div>
+    </div>
+</form>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

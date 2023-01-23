@@ -1,0 +1,334 @@
+
+body{
+    background-color: rgb(210, 212, 212);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; 
+}
+.container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+}
+.main-container{
+    height: 789px;
+    width: 375px;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px; 
+    border-radius: 25px;
+      
+}
+.bilInput{  
+    display: flex;
+    flex-direction: column;
+}
+.billName{
+    height: 24px;
+    width: 47px;
+    color:#5E7A7D;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;  
+    
+}
+.billinputclass{
+    height: 48px;
+    width: 311px;
+    border-radius: 5px; 
+}
+.SelectTip{
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#5E7A7D; 
+    padding-right: 192px;
+}
+.tip{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;  
+}
+.tip5{
+    background: #00474B;
+    height: 48px;
+    width: 146.6311798095703px;
+    border-radius: 5px;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFF;
+    border-style: none;
+    cursor: grab;
+}
+.tip5:hover{
+       background-color: #26C2AE;
+}
+.btn:hover{
+       background-color: #9FE8DF;
+}
+.CustomTextClass{
+    cursor:auto
+}
+.CustomTextClass{
+    display: flex;
+    font-family: 'Space Mono';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: #547878;
+    
+}
+
+#CustomText{
+    height: 48px;
+    width: 147.81369018554688px;
+    border-radius: 5px;
+    text-align: center;
+}
+.numberPeopleText{
+    height: 24px;
+    width: 186px;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+    color:#5E7A7D;  
+}
+.peoplenumber{
+    display: flex;
+    flex-direction: column;
+}
+.numberPeopleClass{
+    height: 48px;
+    width: 311px;
+    left: 0px;
+    top: 0px;
+    border-radius: 5px;
+}
+.tipAmountBox{
+    margin-top: 100px;
+    height: 257px;
+    width: 327px;
+    border-radius: 15px;
+    background: #00474B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tipAmountFirstBox{
+    padding-bottom: 30px;  
+    margin-top: -60px;
+}
+
+#totalAmount{
+    margin-left: 180px;
+    margin-top: -40px;
+    font-family: Space Mono;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: -0.6666666865348816px;
+    text-align: right;
+    color:  #26C2AE;
+}
+#tipamountmoneytext{
+    margin-left: 200px;
+    margin-top: -40px;
+    height: 47px;
+    font-family: 'Space Mono';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: -0.6666666865348816px;
+    text-align: right;
+    color:  #26C2AE;  
+}
+.tipText , .totalText{
+    height: 24px;
+    width: 98px;
+    font-family: "Space Mono";
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: #FFF;   
+}
+.totalPersonText , .personText {
+    height: 19px;
+    width: 64px;
+    font-family:"Space Mono";
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0px;
+    color: #7F9D9F;    
+}
+.peoplenumber{
+    margin-top: 70px;
+    margin-bottom: -70px;
+}
+.tip ,.seltip{
+    margin-top: 30px;
+    margin-bottom: -30px;
+}
+.btn{
+    height: 48px;
+    width: 281px;
+    border-radius: 5px;
+    position: absolute;
+    font-family: 'Space Mono';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    background-color: #26C2AE;
+    margin-top: -110px;
+    margin-left: 48px;
+}
+.billinputclass , .numberPeopleClass{
+    font-family: "Space Mono";
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0px;
+    text-align: right; 
+}
+
+@media only screen and (min-width:919px){
+     .main-container{
+     height: 500px;
+     width: 920px;
+     border-radius: 25px;   
+     margin-top: 100px;         
+     }
+.bilInput {
+     position: relative;
+     margin-left: -500px;
+ 
+}
+.peoplenumber{
+     position: relative;
+     margin-left: -500px;
+}
+.seltip{
+     position: relative;
+     margin-left: -500px;
+}
+.tip{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;  
+    margin-left:-500px ;
+    width: 300px;
+    
+}
+.active, tip5:hover{
+    background-color: #26C2AE;
+}
+.tipAmountBox{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-top: -322px;  
+}
+.restbtn{
+    position: relative;
+    margin-left: 420px;
+    margin-top: 10px;
+}
+.bilTipNum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.btn{
+    margin-left: 100px;
+    margin-top: -140px;
+}
+
+
+}
+
+@media only screen and (min-width:919px){
+     .main-container{
+     height: 500px;
+     width: 920px;
+     border-radius: 25px;   
+     margin-top: 100px;         
+     }
+.bilInput {
+     position: relative;
+     margin-left: -500px;
+ 
+}
+.peoplenumber{
+     position: relative;
+     margin-left: -500px;
+}
+.seltip{
+     position: relative;
+     margin-left: -500px;
+}
+.tip{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;  
+    margin-left:-500px ;
+    width: 300px;
+    
+}
+.active, tip5:hover{
+    background-color: #26C2AE;
+}
+.tipAmountBox{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 400px;
+    margin-top: -322px;  
+}
+.restbtn{
+    position: relative;
+    margin-left: 420px;
+    margin-top: 10px;
+}
+.bilTipNum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.btn{
+    margin-left: 100px;
+    margin-top: -140px;
+}
+
+
+}
+
